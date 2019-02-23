@@ -1,186 +1,53 @@
-body {
-    background: url('res/neige.jpg');
-    font-family: Arial, Helvetica, sans-serif;
-    color:brown
-}
-#bloc_page {
-    width: 900px;
-    margin: auto;
-}
-section h1, footer h1, nav a
+.bloc
 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    text-transform: uppercase
+    width: 100%;
+    height: 250px;
+    margin-top: 50px;
+    background-image: url(res/Tunisie.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+   box-sizing: border-box;
+    
 }
-header{
-    background: url('res/separateur.png') repeat-x bottom;
-}
-#titre_principal
-{display: inline-block}
-header h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2.5em;
-    font-weight: normal;
-}
-#logo, header h1
-{
-    display: inline-block;
-    margin-bottom: 5px;
-}
-header h2{
-    font-family: fantasy;
-    font-size: 1.1em;
-    margin-top: 0px;
-    font-weight: normal;
-}
-nav{
-    display: inline-block;
-    width: 740px;
-    text-align: right
-}
-nav ul {
-    list-style-type: none
-}
-nav li{
-    display:inline-block;
-    margin-right: 15px;
-}
-nav a:hover{
-    color: aqua;
-    border-bottom: 3px solid red;
-}
-#banniere_image{margin-top: 15px;
-    height: 200px;
-    border-radius: 5px;
-    background: url('RES/p2.jpg') no-repeat;
-    position: relative;
-    box-shadow: 0px 4px 4px #1c1a19;
-    margin-bottom: 25px;
-
-}
-#banniere_description
-{
-    position: absolute;
-    bottom: 0;
-    border-radius: 0px 0px 5px 5px;
-    width: 99.5%;
-    height: 33px;
-    padding-top: 15px;
-    padding-left: 4px;
-    background-color: rgb(24,24,24);
-    background-color: rgba(24,24,24,0.8);
-color: white;
-font-size: 0.8em;
-}
-.bouton_rouge
-{
-    display: inline-block;
-height: 25px;
-position: absolute;
-right: 5px;
-bottom: 5px;
-background: url('RES/thumb8182015.png') repeat-x;
-border: 1px solid #760001;
-border-radius: 5px;
-font-size: 1.2em;
-text-align: center;
-padding: 3px 8px 0px 8px;
-color: white;
-text-decoration: none;
-}
-.bouton_rouge img
-{border: 0;}
-article, aside
-{
-display: inline-block;
-vertical-align: top;
-text-align: justify;
-}
-article
-{
-width: 625px;
-margin-right: 15px;
-}
-.ico_categorie
-{
-vertical-align: middle;
-margin-right: 8px;
-}
-article p
-{
-font-size: 0.8em;
-}
-aside
-{
-position: relative;
-width: 235px;
-background-color: #706b64;
-box-shadow: 0px 2px 5px #1c1a19;
-border-radius: 5px;
-padding: 10px;
-color: white;
-font-size: 0.9em;
-}
-#fleche_bulle
-{
-position: absolute;
-top: 250px;
-left: -20px;
-}
-#photo_zozor
+.titre
 {
     text-align: center;
+    font-weight: bold;
+    font-size: 500%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aqua;
+
 }
-#photo_zozor img
-{
-border: 1px solid #181818;
+.titre2{
+    color: blue;
+    font-weight: bold;
+    font-size: 80px;
 }
-aside img
-{
-margin-right: 10px;
+.article {
+    text-align: justify;
+     margin: 10px;
+     margin-left: 30px;
+   padding: 8px;
+   width: 40%;
+   height: 45%;
+   display: inline-block;
+   box-sizing: border-box;
+    transition: all .3s;
+    text-shadow: 1px 1px 2px rgba(89, 65, 121, 0.582);
+    border: inset;
+
 }
-footer
-{
-background: 
-url('res/f2.png') repeat-x top, url('res/f3.png')
-repeat-x top;
-padding-top: 80px;
+.article:hover{
+    border: 6px rgb(0, 5,8) groove;
 }
-footer p, footer ul
-{
-font-size: 0.8em;
+.p1, .p2,.p5,.p6{
+    color:black;
+    background-color: darkgrey;
 }
-footer h1
-{
-font-size: 1.1em;
-}
-#tweet, #mes_photos, #mes_amis
-{
-display: inline-block;
-vertical-align: top;}
-#tweet
-{
-width: 28%;
-}
-#mes_photos
-{
-width: 40%;
-}
-#mes_amis
-{
-width: 31%;
-}
-#mes_photos img
-{
-border: 1px solid #181818;
-margin-right: 10px;
-}
-#mes_amis ul
-{
-display: inline-block;
-vertical-align: top;
-margin-top: 0;
-width: 48%;
-padding-left: 2px;
+.p3, .p4{
+    color:white;
+    background-color: rgb(121, 110, 124);
+    }
+.paragraphe{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
